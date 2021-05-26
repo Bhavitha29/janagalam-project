@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Janagalam</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+ 
+
+</head>
+<body>
+  <div class="header">
+    <div class ="temperature">
+      <a href="#" class="fa fa-cloud fa-1x" style="color: white;"></a>
+
+    </div>
+ 
+    
+    <div class="title">
+      <h3>మార్పుకై అక్షర సమరం</h3>
+      <h1>జనగళం</h1>
+      <h3>మన కోసం...మన భవిషత్తు కోసం</h3>
+      </div>
+  
+        <div class="social">
+        <a href="#" class="fab fa-facebook fa-x" style="font-size: x-large;"></a>
+        <a href="#" class="fab fa-twitter fa-x" style="font-size: x-large;"></a>
+        <a href="#" class="fab fa-google fa-x" style="font-size: x-large;"></a>
+        <a href="#" class="fab fa-youtube fa-x" style="font-size: x-large;"></a>
+        <a href="#" class="fab fa-instagram fa-x" style="font-size: x-large;"></a>
+         </div>
+         
+      
+    
+    </div>
+    
+    <div class="topnav" id="myTopnav">
+      <a href="#home">హోమ్</a>
+      <a href="#news">వివిధ</a>
+      <a href="#contact">విజయం</a>
+      <div class="dropdown">
+        <button class="dropbtn">రాజకీయాలు
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+        </div>
+      </div> 
+      <a href="#about">వికాసం</a>
+      <div class="dropdown">
+        <button class="dropbtn">క్రీడలు
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div> 
+      <a href="#about">సంపాదకీయం</a>
+      <a href="#about">జగత్తు</a>
+      <a href="#about">వినోదం</a>
+      <a href="#about">నినాదం</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    
+
+       <a> <img src="english.png" id="getImage" onclick="imagefun(), doGTranslate('te|en'),doGTranslate('en|te');"></a>
+          <script>
+            function imagefun() 
+            {
+              var Image_Id = document.getElementById('getImage');
+              if (Image_Id.src.match("english.png"))
+              {
+                Image_Id.src = "telugu.png";
+              }
+              else
+              {
+                Image_Id.src = "english.png";
+              }
+            }        
+          </script>       
+              <div id="google_translate_element2"></div>
+              <script>
+              function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'te',autoDisplay: false}, 'google_translate_element2');}
+              </script>
+              <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+              <script>
+              
+              eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}',43,43,'||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'),0,{}))
+
+              </script>
+               <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+      
+
+
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>  
+      <script>
+      // When the user scrolls the page, execute myFunction 
+      window.onscroll = function() {myFunction()};
+      
+      function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+      }
+      </script>
+        <div id="marquee-cont">
+          <table width="100%"  cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="110px" style="background:#0f0f0f;">
+                <button id="ticker-title">తాజా వార్తలు:</button>
+              </td>
+              <td id="marquee">
+                <marquee onmouseover="this.stop();" onmouseout="this.start();" id='scroll'>
+                  ఇది జనగళం న్యూస్ వెబ్‌సైట్.మార్పుకై అక్షర సమరం,మన కోసం...మన భవిషత్తు కోసం
+                </marquee>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="between">
+        <div class="content-left">
+          
+          
+          <div class="slideshow-container">
+          <div class="mySlides fade">
+            
+            <img src="slider1-new.jpg" style="width:100%;height:400px; ">
+            <div class="text">టెస్టు ఛాంపియన్‌షిప్ ఫైనల్లో న్యూజిలాండ్ అడుగు.. ప్రత్యర్థి రేసులో భారత్</div>
+          </div>
+          
+          <div class="mySlides fade">
+            
+             <img src="slider2.png" style="width:100%; height:400px; ">
+            <div class="text">కోవిడ్ గెలవలేని ప్రపంచాన్ని సృష్టించడానికి సహాయం చేయండి. </div>
+          </div>
+          
+          <div class="mySlides fade">
+            
+            <img src="slider3.webp" style="width:100%; height:400px;">
+            <div class="text">అందుబాటులో రెమిడెసివిర్ ఇంజక్షన్లు..కొరత లేదన్న మంత్రి హరీష్ రావు</div>
+          </div>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          
+          <script>
+          var slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 4000); // Change image every 4seconds
+          }
+          </script>
+          
+            
+
+           
+<div class="grid-container">
+  <!--<div class="item1" style="height:400px;"> <a href=""><img src="newsimg2.webp" style="width:100%;height: 80%;"></a>
+    <a href=""> <figcaption>వైరల్‌: ఈ ఖడ్గమృగం చాలా స్పెషల్‌! బర్త్‌డేకి ఏం చేసిందో తెలుసా?</figcaption></a></div>-->
+  <div class="item2"><a href=""><img src="newsimg3.jpg" style="width:350px; height:700;" ></a>
+    <a href=""> <figcaption>కోవిడ్ రోగులకు అధిక ఛార్జీలు వసూలు చేసినందుకు హైదరాబాద్ ప్రైవేట్ ఆసుపత్రులు ప్రభుత్వ చర్యను ఎదుర్కొంటున్నాయి</figcaption></a></div>
+  <div class="item3" ><a href=""><img src="newsimg4.jpg"  ></a>
+    <a href=""> <figcaption>వైరల్‌: ఈ ఖడ్గమృగం చాలా స్పెషల్‌! బర్త్‌డేకి ఏం చేసిందో తెలుసా?</figcaption></a></div>  
+  <div class="item4"><a href=""><img src="newsimg1.webp" alt=""></a>
+    <a href=""> <figcaption>వైరల్‌: ఈ ఖడ్గమృగం చాలా స్పెషల్‌! బర్త్‌డేకి ఏం చేసిందో తెలుసా?</figcaption></a></div>
+  <div class="item5"><a href=""><img src="newsimg2.webp" alt=""></a>
+    <a href=""> <figcaption>టీమిండియా మాజీ కోచ్‌ గ్రెగ్‌ చాపెల్‌ సంచలన ఆరోపణలు</figcaption></a></div>
+</div>
+<div class="grid-container2">
+  <figure><a href=""><img src="newsimg2copy.webp" alt=""></a>
+  <a href=""> <figcaption>వైరల్‌: ఈ ఖడ్గమృగం చాలా స్పెషల్‌! బర్త్‌డేకి ఏంచేసిందో తెలుసా?</figcaption></a>
+  </figure>
+  <figure><a href=""><img src="newsimg2copy.webp" alt=""></a>
+  <a href=""> <figcaption>వైరల్‌: ఈ ఖడ్గమృగం చాలా స్పెషల్‌! బర్త్‌డేకి ఏం చేసిందో తెలుసా?</figcaption></a>
+  </figure> <figure><a href=""><img src="newsimg2copy.webp" alt=""></a>
+   <a href=""> <figcaption>వైరల్‌: ఈ ఖడ్గమృగం చాలా స్పెషల్‌! బర్త్‌డేకి ఏం చేసిందో తెలుసా?వైరల్‌: ఈ ఖడ్గమృగం చాలా స్పెషల్‌! </figcaption></a>
+   </figure>
+  </figure> <figure><a href=""><img src="newsimg2copy.webp" alt=""></a>
+   <a href=""> <figcaption>Corona: మృతదేహంపై ఆభరణాలు తీసిచ్చినందుకు రూ.14 వేలు </figcaption></a>
+   </figure>
+</figure> <figure><a href=""><img src="newsimg1copy.webp" alt=""></a>
+   <a href=""> <figcaption>Corona: మృతదేహంపై ఆభరణాలు తీసిచ్చినందుకు రూ.14 వేలు </figcaption></a>
+   </figure>
+ </figure> <figure><a href=""><img src="newsimg1copy.webp" alt=""></a>
+   <a href=""> <figcaption>Corona: మృతదేహంపై ఆభరణాలు తీసిచ్చినందుకు రూ.14 వేలు </figcaption></a>
+   </figure>
+ </figure> <figure><a href=""><img src="newsimg1copy.webp" alt=""></a>
+   <a href=""> <figcaption>Corona: మృతదేహంపై ఆభరణాలు తీసిచ్చినందుకు రూ.14 వేలు </figcaption></a>
+   </figure>
+ </figure> <figure><a href=""><img src="newsimg1copy.webp" alt=""></a>
+   <a href=""> <figcaption>Corona: మృతదేహంపై ఆభరణాలు తీసిచ్చినందుకు రూ.14 వేలు </figcaption></a>
+   </figure>
+</div>
+</div>
+       
+  <!---ads starts-->
+<div class="ads">
+  <div class="ad1">
+  <img src="ad1.gif" alt="Domminos Pizza" style="width:300px;height:300px;">
+  </div>
+  <div class="ad2">
+  <img src="ad2.gif" alt="shoes" style="width:300px;height:350px;">
+  </div>
+  <div class="ad3">
+  <img src="ad3.gif" alt="car" style="width:300px;height:350px;">
+  </div>
+  <div class="ad4">
+    <img src="ad4.gif" alt="Paypal" style="width:300px;height:350px;">
+    </div>
+    <div class="ad2">
+      <img src="ad2.gif" alt="shoes" style="width:300px;height:350px;">
+      </div>
+      <div class="ad1">
+        <img src="ad1.gif" alt="Domminos Pizza" style="width:300px;height:200px;">
+        </div>
+  
+</div>
+ <!--ads ends-->
+</div>
+
+<section id="footer">
+  <div class="footer-box">
+    <div class="brand" style= "color: white;">
+      <h1></h1>
+      <h1></h1>
+      <a class="footer-anchor-tag" href="" alt="">
+        <span style= "color:white">About us</span>
+      </a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a class="footer-anchor-tag" href="" alt="">
+        <span style= "color:white">Privacy policy</span>
+      </a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a class="footer-anchor-tag" href="" alt="">
+        <span style= "color:white">Terms of Use and Grievance Redressal Policy</span>
+      </a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a class="footer-anchor-tag" href="" alt="">
+        <span style= "color:white">Advertise with us</span>
+      </a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a class="footer-anchor-tag" href="" alt="">
+        <span style= "color:white">Feedback</span>
+      </a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a class="footer-anchor-tag" href="" alt="">
+        <span style= "color:white">Sitemap</span>
+      </a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a class="footer-anchor-tag" href="" alt="">
+        <span style= "color:white">Report</span>
+      </a>
+      
+    </div>
+    <hr size="2" width= "100%" color="white"> 
+    <h2>follow us</h2>
+    <div class="social-icon">
+
+      <a href="#" class="fab fa-facebook fa-2x"></a>
+      <a href="#" class="fab fa-twitter fa-2x"></a>
+      <a href="#" class="fab fa-google fa-2x"></a>
+      <a href="#" class="fab fa-youtube fa-2x"></a>
+      <a href="#" class="fab fa-instagram fa-2x"></a>
+       </div>
+    <p>Copyright © 2021 janagalam. All rights reserved</p>
+  </div>
+</section>
+</body>
+</html>
